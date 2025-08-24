@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alvis' Secret Base</title>
+    <link rel="stylesheet" type="text/css" href="public/style.css">
+</head>
+<body>
+    <!-- Floating Shapes -->
+    <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">A.Y.</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Exprience/Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Alvis Yan</h1>
+            <p>Engineer & CS student @ Cornell</p>
+            <a href="#about" class="cta-button">
+                <span>About Me</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hello! This is Alvis! </h3>
+                    <p>I graduated as an undergrad from NYU with a degree in computer science and economics. I will be studying at Cornell University for a graduate program in computer science, with a concentration in machine learning. 
+
+                        As a software engineer, I'm mostly familiar with Python and JavaScript, with proficiency in React.js, Next.js, Express, Flask, and other commonly used tools in web development and software engineering. I'm also good at data analysis and statistics in economics. I'm ready to collaborate with teams of engineers and computer scientists and contribute to large projects/software products.</p>
+                </div>
+                <div class="skill-bars">
+                    <div class="skill">
+                        <div class="skill-name">
+                            <span>Python</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">
+                            <span>Javascript</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">
+                            <span>React</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">
+                            <span>Machine Learning</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 60px;">
+                <a href="#projects" class="cta-button">
+                    <span>My Works</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Software Engineer/Machine Learning Engineer Intern@EyeSpace LLC.</h3>
+                    <p>●Design and engage in building a platform for ophthalmologists to manage patients’ data and reservations.<br>
+                        ●Built deep learning models to predict vault sizes (the space or distance between a contact lens or intraocular lens and the cornea) with OCT images (a kind of X-ray scan of a patient’s eyeballs). Achieved around 90% prediction accuracy within 400 microns for Resnet based models. <br>
+                        ●Develop, optimize, and maintain company’s web application (https://iclvaultapi.streamlit.app/).<br>
+                    </p>
+                    <div class="project-tech" style="color: gold;">
+                        <span>JavaScript • HTML • Pytorch • Transfer Learning • TensorFlow • Keras </span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Back End Engineer Intern@OneSynergee</h3>
+                    <p></p>
+                    <div class="project-tech" style="color: gold;">
+                        <span>Python • Firebase</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3></h3>
+                    <p></p>
+                    <div class="project-tech" style="color: gold;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 60px;">
+                <a href="#contact" class="cta-button">
+                    <span>Get In Touch →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-links">
+                <a href="https://github.com/AlvisYan2025" target="_blank" class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </div>
+                    <div class="contact-info">
+                        <h3>GitHub</h3>
+                        <p>Check out my code</p>
+                    </div>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/alvis-yan-69a194295/" target="_blank" class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                    </div>
+                    <div class="contact-info">
+                        <h3>LinkedIn</h3>
+                        <p>Let's connect professionally</p>
+                    </div>
+                </a>
+                
+                <a href="mailto:elvisyanhaoyu@gmail.com" class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/>
+                        </svg>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Email</h3>
+                        <p>Drop me a message</p>
+                    </div>
+                </a>
+            </div>
+            <div style="text-align: center; margin-top: 60px;">
+                <a href="#home" class="cta-button">
+                    <span>↑ Back to Top</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Intersection Observer for camera movement effect
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view');
+                    
+                    // Animate skill bars when in view
+                    if (entry.target.querySelector('.skill-progress')) {
+                        entry.target.querySelectorAll('.skill-progress').forEach(bar => {
+                            const width = bar.getAttribute('data-width');
+                            setTimeout(() => {
+                                bar.style.width = width + '%';
+                            }, 200);
+                        });
+                    }
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('.section').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Observe contact links for animation
+        const contactLinks = document.querySelector('.contact-links');
+        if (contactLinks) {
+            observer.observe(contactLinks);
+        }
+
+        // Mouse movement parallax effect
+        document.addEventListener('mousemove', (e) => {
+            const mouseX = e.clientX / window.innerWidth - 0.5;
+            const mouseY = e.clientY / window.innerHeight - 0.5;
+            
+            const hero = document.querySelector('.hero');
+            if (hero) {
+                hero.style.transform = `rotateY(${mouseX * 10}deg) rotateX(${-mouseY * 10}deg)`;
+            }
+            
+            document.querySelectorAll('.shape').forEach((shape, index) => {
+                const speed = (index + 1) * 2;
+                shape.style.transform += ` translateX(${mouseX * speed}px) translateY(${mouseY * speed}px)`;
+            });
+        });
+
+        // Add some dynamic camera movement on scroll
+        let ticking = false;
+        function updateCameraAngle() {
+            const scrolled = window.pageYOffset;
+            const sections = document.querySelectorAll('.section');
+            
+            sections.forEach((section, index) => {
+                const rect = section.getBoundingClientRect();
+                const centerY = rect.top + rect.height / 2;
+                const windowCenterY = window.innerHeight / 2;
+                const distance = Math.abs(centerY - windowCenterY);
+                
+                if (distance < window.innerHeight) {
+                    const rotation = (centerY - windowCenterY) / window.innerHeight * 10;
+                    section.style.transform = `perspective(1000px) rotateX(${rotation}deg)`;
+                }
+            });
+            
+            ticking = false;
+        }
+
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                requestAnimationFrame(updateCameraAngle);
+                ticking = true;
+            }
+        });
+    </script>
+</body>
+</html>
